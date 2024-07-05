@@ -81,6 +81,7 @@ def clubs_callback_handlers(call):
         bot.send_message(call.message.chat.id, 'Привет! Укажите фамилию/имя/ник, только на английском языке (лимит 10 символов):')
         bot.register_next_step_handler(call.message, name_asking_for_2drots, call.data)
     elif call.data == 'broke_boys':
+        print(broke)
         bot.send_message(call.message.chat.id, 'Привет! Укажите фамилию/имя/ник, только на английском языке (лимит 10 символов):')
         bot.register_next_step_handler(call.message, name_asking_for_broke_boys, call.data)
     elif call.data == "fc_bus":

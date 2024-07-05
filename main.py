@@ -348,9 +348,9 @@ def result_2drots(message):
         club = user_state[message.chat.id]['club']
 
         unique_id = str(uuid.uuid4())
-        path = f'images/{club}.jpg'
-        image_name = f'{club}_text_{unique_id}.jpg'
-        font_path = f'fonts/{club}.TTF'
+        path = f'root/footbalopencv/images/{club}.jpg'
+        image_name = f'root/footbalopencv/{club}_text_{unique_id}.jpg'
+        font_path = f'root/footbalopencv/fonts/{club}.TTF'
 
         create_image_for_2drots(path, font_path, image_name, your_name, your_number)
 
@@ -405,9 +405,9 @@ def result_for_fc_bus(message):
         club = user_state[message.chat.id]['club']
 
         unique_id = str(uuid.uuid4())
-        path = f'images/{club}.jpg'
-        image_name = f'{club}_text_{unique_id}.jpg'
-        font_path = f'fonts/{club}.TTF'
+        path = f'root/footbalopencv/images/{club}.jpg'
+        image_name = f'root/footbalopencv/{club}_text_{unique_id}.jpg'
+        font_path = f'root/footbalopencv/fonts/{club}.TTF'
 
         create_image_for_fc_bus(path, font_path, image_name, your_name, your_number)
 

@@ -406,7 +406,7 @@ def result_for_fc_bus(message):
         club = user_state[message.chat.id]['club']
 
         unique_id = str(uuid.uuid4())
-        path = f'/images/{club}.jpg'
+        path = f'images/{club}.jpg'
         image_name = f'{club}_text_{unique_id}.jpg'
         font_path = f'root/footbalopencv/fonts/{club}.TTF'
 
@@ -464,7 +464,7 @@ def result_goats(message):
         unique_id = str(uuid.uuid4())
         path = f'images/{club}.jpg'
         image_name = f'{club}_text_{unique_id}.jpg'
-        font_path = f'fonts/{club}.TTF'
+        font_path = f'root/footbalopencv/fonts/{club}.TTF'
 
 
         create_image_for_goats(path, font_path, image_name, your_name, your_number)

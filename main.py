@@ -1,4 +1,5 @@
 import os
+import signal
 import time
 import uuid
 
@@ -15,6 +16,17 @@ from func import create_image_for_2drots, create_image_for_broke_boys, create_im
 bot = telebot.TeleBot("7233849242:AAH-R--7Ts8rPIIcTAhwiRe3ELhWQE8lX-g")
 user_state = {}
 
+
+running = True
+
+def signal_handler(sig, frame):
+    global running
+    print("Received signal to stop the bot. Exiting...")
+    running = False
+
+# Зарегистрируйте обработчик сигнала
+signal.signal(signal.SIGINT, signal_handler)
+signal.signal(signal.SIGTERM, signal_handler)
 
 def start_keyboard():
     start = types.InlineKeyboardMarkup()
@@ -350,7 +362,7 @@ def result_2drots(message):
         club = user_state[message.chat.id]['club']
 
         unique_id = str(uuid.uuid4())
-        path = f'images/{club}.jpg'
+        path = f'images/2drots.jpg'
         image_name = f'{club}_text_{unique_id}.jpg'
         font_path = f'../fonts/{club}.ttf'
 
@@ -933,7 +945,7 @@ def result_egrisi(message):
         bot.send_message(message.chat.id, "Неверный формат. Укажите номер от 0 до 99:")
         bot.register_next_step_handler(message, result_egrisi)
 
-while True:
+while running:
     try:
         bot.polling(none_stop=True)
     except Exception as e:

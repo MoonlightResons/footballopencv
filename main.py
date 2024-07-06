@@ -351,7 +351,7 @@ def result_2drots(message):
         unique_id = str(uuid.uuid4())
         path = f'images/{club}.jpg'
         image_name = f'{club}_text_{unique_id}.jpg'
-        font_path = f'../fonts/{club}.TTF'
+        font_path = f'../fonts/{club}.ttf'
 
         create_image_for_2drots(path, font_path, image_name, your_name, your_number)
 
@@ -379,8 +379,8 @@ def result_for_broke_boys(message):
         unique_id = str(uuid.uuid4())
         path = f'images/{club}.jpg'
         image_name = f'{club}_text_{unique_id}.jpg'
-        font_path = f'fonts/{club}.TTF'
-        font_path2 = f'fonts/{club}_numbers.TTF'
+        font_path = f'fonts/{club}.ttf'
+        font_path2 = f'fonts/{club}_numbers.ttf'
 
         create_image_for_broke_boys(path, font_path, font_path2, image_name, your_name, your_number)
 
@@ -408,7 +408,7 @@ def result_for_fc_bus(message):
         unique_id = str(uuid.uuid4())
         path = f'images/{club}.jpg'
         image_name = f'{club}_text_{unique_id}.jpg'
-        font_path = f'fonts/{club}.TTF'
+        font_path = f'fonts/{club}.ttf'
 
         create_image_for_fc_bus(path, font_path, image_name, your_name, your_number)
 
@@ -436,7 +436,7 @@ def result_fight_nights(message):
         unique_id = str(uuid.uuid4())
         path = f'images/{club}.jpg'
         image_name = f'{club}_text_{unique_id}.jpg'
-        font_path = f'fonts/{club}.TTF'
+        font_path = f'fonts/{club}.ttf'
 
         create_image_for_fight_nights(path, font_path, image_name, your_name, your_number)
 
@@ -464,7 +464,7 @@ def result_goats(message):
         unique_id = str(uuid.uuid4())
         path = f'images/{club}.jpg'
         image_name = f'{club}_text_{unique_id}.jpg'
-        font_path = f'fonts/{club}.TTF'
+        font_path = f'fonts/{club}.ttf'
 
 
         create_image_for_goats(path, font_path, image_name, your_name, your_number)
@@ -493,8 +493,8 @@ def result_lotus(message):
         unique_id = str(uuid.uuid4())
         path = f'images/{club}.jpg'
         image_name = f'{club}_text_{unique_id}.jpg'
-        font_path = f'fonts/{club}.TTF'
-        font_path2 = f'fonts/{club}_numbers.TTF'
+        font_path = f'fonts/{club}.ttf'
+        font_path2 = f'fonts/{club}_numbers.ttf'
         print(club)
 
         create_image_for_lotus(path, font_path, font_path2, image_name, your_name, your_number)
@@ -523,7 +523,7 @@ def result_amkal(message):
         unique_id = str(uuid.uuid4())
         path = f'images/{club}.jpg'
         image_name = f'{club}_text_{unique_id}.jpg'
-        font_path = f'fonts/{club}.TTF'
+        font_path = f'fonts/{club}.ttf'
 
         create_image_for_amkal(path, font_path, image_name, your_name, your_number)
 
@@ -551,7 +551,7 @@ def result_d_media(message):
         unique_id = str(uuid.uuid4())
         path = f'images/{club}.jpg'
         image_name = f'{club}_text_{unique_id}.jpg'
-        font_path = f'fonts/{club}.TTF'
+        font_path = f'fonts/{club}.ttf'
 
         create_image_for_d_media(path, font_path, image_name, your_name, your_number)
 
@@ -579,7 +579,7 @@ def result_rockets(message):
         unique_id = str(uuid.uuid4())
         path = f'images/{club}.jpg'
         image_name = f'{club}_text_{unique_id}.jpg'
-        font_path = f'fonts/{club}.TTF'
+        font_path = f'fonts/{club}.ttf'
 
         create_image_for_rockets(path, font_path, image_name, your_name, your_number)
 
@@ -607,7 +607,7 @@ def result_horses(message):
         unique_id = str(uuid.uuid4())
         path = f'images/{club}.jpg'
         image_name = f'{club}_text_{unique_id}.jpg'
-        font_path = f'fonts/{club}.TTF'
+        font_path = f'fonts/{club}.ttf'
 
         create_image_for_horses(path, font_path, image_name, your_name, your_number)
 
@@ -635,7 +635,7 @@ def result_mathc_tv(message):
         unique_id = str(uuid.uuid4())
         path = f'images/{club}.jpg'
         image_name = f'{club}_text_{unique_id}.jpg'
-        font_path = f'fonts/{club}.TTF'
+        font_path = f'fonts/{club}.ttf'
 
         create_image_for_match_tv(path, font_path, image_name, your_name, your_number)
 
@@ -663,7 +663,7 @@ def result_naradnaya(message):
         unique_id = str(uuid.uuid4())
         path = f'images/{club}.jpg'
         image_name = f'{club}_text_{unique_id}.jpg'
-        font_path = f'fonts/{club}.TTF'
+        font_path = f'fonts/{club}.ttf'
 
         create_image_for_narodnaya(path, font_path, image_name, your_name, your_number)
 
@@ -691,7 +691,7 @@ def result_rodina(message):
         unique_id = str(uuid.uuid4())
         path = f'images/{club}.jpg'
         image_name = f'{club}_text_{unique_id}.jpg'
-        font_path = f'fonts/{club}.TTF'
+        font_path = f'fonts/{club}.ttf'
 
         create_image_for_rodina(path, font_path, image_name, your_name, your_number)
 
@@ -719,7 +719,7 @@ def result_roma(message):
         unique_id = str(uuid.uuid4())
         path = f'images/{club}.jpg'
         image_name = f'{club}_text_{unique_id}.jpg'
-        font_path = f'fonts/{club}.TTF'
+        font_path = f'fonts/{club}.ttf'
 
         create_image_for_roma(path, font_path, image_name, your_name, your_number)
 
@@ -747,7 +747,7 @@ def result_cka(message):
         unique_id = str(uuid.uuid4())
         path = f'images/{club}.jpg'
         image_name = f'{club}_text_{unique_id}.jpg'
-        font_path = f'fonts/{club}.TTF'
+        font_path = f'fonts/{club}.ttf'
 
         create_image_for_cka(path, font_path, image_name, your_name, your_number)
 
@@ -775,7 +775,7 @@ def result_tandem(message):
         unique_id = str(uuid.uuid4())
         path = f'images/{club}.jpg'
         image_name = f'{club}_text_{unique_id}.jpg'
-        font_path = f'fonts/{club}.TTF'
+        font_path = f'fonts/{club}.ttf'
 
         create_image_for_tandem(path, font_path, image_name, your_name, your_number)
 
@@ -803,7 +803,7 @@ def result_roma(message):
         unique_id = str(uuid.uuid4())
         path = f'images/{club}.jpg'
         image_name = f'{club}_text_{unique_id}.jpg'
-        font_path = f'fonts/{club}.TTF'
+        font_path = f'fonts/{club}.ttf'
 
         create_image_for_roma(path, font_path, image_name, your_name, your_number)
 
@@ -831,7 +831,7 @@ def result_titan(message):
         unique_id = str(uuid.uuid4())
         path = f'images/{club}.jpg'
         image_name = f'{club}_text_{unique_id}.jpg'
-        font_path = f'fonts/{club}.TTF'
+        font_path = f'fonts/{club}.ttf'
 
         create_image_for_titan(path, font_path, image_name, your_name, your_number)
 
@@ -859,8 +859,8 @@ def result_fk_10(message):
         unique_id = str(uuid.uuid4())
         path = f'images/{club}.jpg'
         image_name = f'{club}_text_{unique_id}.jpg'
-        font_path = f'fonts/{club}.TTF'
-        font_path2 = f'fonts/{club}_numbers.TTF'
+        font_path = f'fonts/{club}.ttf'
+        font_path2 = f'fonts/{club}_numbers.ttf'
 
         create_image_for_fk_10(path, font_path, font_path2, image_name, your_name, your_number)
 
@@ -888,7 +888,7 @@ def result_piter(message):
         unique_id = str(uuid.uuid4())
         path = f'images/{club}.jpg'
         image_name = f'{club}_text_{unique_id}.jpg'
-        font_path = f'fonts/{club}.TTF'
+        font_path = f'fonts/{club}.ttf'
 
         create_image_for_piter(path, font_path, image_name, your_name, your_number)
 
@@ -916,7 +916,7 @@ def result_egrisi(message):
         unique_id = str(uuid.uuid4())
         path = f'images/{club}.jpg'
         image_name = f'{club}_text_{unique_id}.jpg'
-        font_path = f'fonts/{club}.TTF'
+        font_path = f'fonts/{club}.ttf'
 
         create_image_for_egrisi(path, font_path, image_name, your_name, your_number)
 

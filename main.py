@@ -392,8 +392,8 @@ def result_for_broke_boys(message):
         unique_id = str(uuid.uuid4())
         path = f'images/{club}.jpg'
         image_name = f'{club}_text_{unique_id}.jpg'
-        font_path = f'fonts/{club}.ttf'
-        font_path2 = f'fonts/{club}_numbers.ttf'
+        font_path = f'fonts/{club}.TTF'
+        font_path2 = f'fonts/{club}_numbers.TTF'
 
         create_image_for_broke_boys(path, font_path, font_path2, image_name, your_name, your_number)
 

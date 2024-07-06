@@ -1,4 +1,5 @@
 import os
+import time
 import uuid
 
 import telebot
@@ -932,4 +933,9 @@ def result_egrisi(message):
         bot.send_message(message.chat.id, "Неверный формат. Укажите номер от 0 до 99:")
         bot.register_next_step_handler(message, result_egrisi)
 
-bot.polling()
+while True:
+    try:
+        bot.polling(none_stop=True)
+    except Exception as e:
+        print("Что то там")
+        time.sleep(1)

@@ -364,7 +364,7 @@ def result_2drots(message):
         unique_id = str(uuid.uuid4())
         path = 'images/2drots.jpg'
         image_name = f'2drots_text_{unique_id}.jpg'
-        font_path = 'fonts/2drots.ttf'
+        font_path = 'fonts/2drots.TTF'
 
         create_image_for_2drots(path, font_path, image_name, your_name, your_number)
 
@@ -393,7 +393,7 @@ def result_for_broke_boys(message):
         path = f'images/{club}.jpg'
         image_name = f'{club}_text_{unique_id}.jpg'
         font_path = f'fonts/{club}.ttf'
-        font_path2 = f'fonts/{club}_numbers.TTF'
+        font_path2 = f'fonts/{club}_numbers.ttf'
 
         create_image_for_broke_boys(path, font_path, font_path2, image_name, your_name, your_number)
 

@@ -362,9 +362,9 @@ def result_2drots(message):
         club = user_state[message.chat.id]['club']
 
         unique_id = str(uuid.uuid4())
-        path = f'images/2drots.jpg'
-        image_name = f'{club}_text_{unique_id}.jpg'
-        font_path = f'../fonts/{club}.ttf'
+        path = 'images/2drots.jpg'
+        image_name = f'2drots_text_{unique_id}.jpg'
+        font_path = 'fonts/2drots.ttf'
 
         create_image_for_2drots(path, font_path, image_name, your_name, your_number)
 
